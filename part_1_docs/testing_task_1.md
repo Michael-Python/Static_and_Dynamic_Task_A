@@ -33,9 +33,9 @@ class CardGame:
     return card2
   
 
-
+# missing indent for whole section
 def cards_total(self, cards):
-  # total needs a value
+  # total needs a value, I think an empty list is needed
   total
   for card in cards:
     total += card.value

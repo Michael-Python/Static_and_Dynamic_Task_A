@@ -7,21 +7,21 @@
 class CardGame:
 
 
-  def check_for_ace(self, card):
-    if card.value = 1:
-      return True
-    else
-      return False
+  # def check_for_ace(self, card):
+  #   if card.value = 1:
+  #     return True
+  #   else
+  #     return False
    
 
-  dif highest_card(self, card1 card2):
-  if card1.value > card2.value:
-    return card
-  else:
-    return card2
+  # dif highest_card(self, card1 card2):
+  # if card1.value > card2.value:
+  #   return card
+  # else:
+  #   return card2
   
 
-
+# missing indent
 def cards_total(self, cards):
   total
   for card in cards:
