@@ -24,10 +24,10 @@ class CardGame:
     else
       return False
    
-  # typo on dif, should be def
+  # typo on dif, should be def and missing comma
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
-    # there is no 'card' value, only card1
+    # there is no card.value, only card1.value
     return card
   else:
     return card2
@@ -35,7 +35,7 @@ class CardGame:
 
 # missing indent for whole section
 def cards_total(self, cards):
-  # total needs a value, I think an empty list is needed
+  # total needs a value, I think it should be = 0
   total
   for card in cards:
     total += card.value
