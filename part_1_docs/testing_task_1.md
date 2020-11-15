@@ -18,14 +18,16 @@ class CardGame:
 
 
   def check_for_ace(self, card):
+    # For a conditional, you need == for an if statement.
     if card.value = 1:
       return True
     else
       return False
    
-
+  # typo on dif, should be def
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
+    # there is no 'card' value, only card1
     return card
   else:
     return card2
@@ -33,9 +35,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
+  # total needs a value
   total
   for card in cards:
     total += card.value
+    # return should be outside the for loop
     return "You have a total of" + total
   
 ```

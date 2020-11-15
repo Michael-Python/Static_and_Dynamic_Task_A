@@ -4,11 +4,11 @@
 ##### Testing tasks
 
 #### Task 1: Static Testing
-
-  Carry out static testing on testing_task_1.mdin the part_1_docs folder .  
+<!-- there was a space missing after .md, on the next line. -->
+  Carry out static testing on testing_task_1.md in the part_1_docs folder .  
 
   Read through the code. Comment any errors you can see but do not correct them in this file.
-
+  <!-- perhaps this should read Python code. -->
   (Remember you can use `#` to comment in Ruby code.)
 
 
