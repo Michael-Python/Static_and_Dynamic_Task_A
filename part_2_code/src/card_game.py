@@ -21,11 +21,9 @@ class CardGame:
       return card1
     else:
       return card2
-  
 
-# missing indent
-# def cards_total(self, cards):
-#   total
-#   for card in cards:
-#     total += card.value
-#     return "You have a total of" + total
+  def cards_total(self, cards):
+    total = 0
+    for card in cards:
+      total += card.value
+    return total

@@ -26,5 +26,8 @@ class TestCardGame(unittest.TestCase):
         self.assertEqual(False, CardGame.check_for_ace(3, self.card_2))
 
     def test_card1_is_greater__true(self):
-        self.assertEqual(self.card_2, CardGame.highest_card(self.card_1, self.card_2, self.card_3))
+        self.assertEqual(self.card_3, CardGame.highest_card(self.card_1, self.card_2, self.card_3))
+
+    def test_cards_have_total_value(self):
+        self.assertEqual(14, CardGame.cards_total(self.cards, self.cards))
 
