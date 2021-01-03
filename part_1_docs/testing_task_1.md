@@ -21,13 +21,15 @@ class CardGame:
     # For a conditional, you need == for an if statement.
     if card.value = 1:
       return True
+    # missing :
     else
       return False
    
-  # typo on dif, should be def and missing comma
+  # typo on dif, should be def and missing comma, after card1
   dif highest_card(self, card1 card2):
+  # missing indent here, and on further lines
   if card1.value > card2.value:
-    # there is no card.value, only card1.value
+    # there is no card, it must be card1
     return card
   else:
     return card2

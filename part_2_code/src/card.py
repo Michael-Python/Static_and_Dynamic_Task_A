@@ -1,3 +1,5 @@
+from src.card_game import CardGame
+
 
 class Card:
 
